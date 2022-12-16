@@ -217,7 +217,7 @@ if game.PlaceId == 920587237 then
 	ShTab:AddButton({
 		Name = "V.G Hub( V.3 )               Credits To [ DekuDimz/Unimonix ]",
 		Callback = function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/tinywolf420/V.G-Hub-Revamp/main/V.G%20Hub%20Revamp%20%F0%9F%A6%B4%20Adopt%20Me?token=GHSAT0AAAAAAB4G5Z34S6R6YTP6OUPNWULAY446EKA'))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/tinywolf420/Lua/main/Dunno%20why-ad'))()
 		  end   
 	})
 	ShTab:AddButton({
