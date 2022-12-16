@@ -1,5 +1,6 @@
+--[Working V.G-3 Hub]--
 local Config = {
-    WindowName = "V.G Hub",
+    WindowName = "☆-V.G Hub-☆ ☆-Adopt Me-☆-By DreamCraft-☆",
     Color = Color3.fromRGB(82, 9, 252),
     Keybind = Enum.KeyCode.RightControl
 }
@@ -1312,7 +1313,29 @@ UserInputService.JumpRequest:connect(
     end
 )
 end)
-
+--[[
+local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/Karrot-Esp"))()
+local Toggle1 = Section2:CreateToggle("Enable Esp", Settings.Esp, function(State)
+    Settings.Esp = State
+    ESP:Toggle(Settings.Esp)
+end)
+local Toggle1 = Section2:CreateToggle("PLayer Esp", Settings.PlayerEsp, function(State)
+    Settings.PlayerEsp = State
+    ESP.Players = Settings.PlayerEsp
+end)
+local Toggle1 = Section2:CreateToggle("Tracers Esp", Settings.Tracers, function(State)
+    Settings.Tracers = State
+    ESP.Tracers = Settings.Tracers
+end)
+local Toggle1 = Section2:CreateToggle("Name Esp", Settings.EspNames, function(State)
+    ESP.Names = Settings.EspNames
+    Settings.EspNames = State
+end)
+local Toggle1 = Section2:CreateToggle("Boxes Esp", Settings.Boxes, function(State)
+    Settings.Boxes = State
+    ESP.Boxes = Settings.Boxes
+end)
+]]--
 local Toggle1 = Extrass:CreateToggle("Invisicam", Settings.Sorry, function(State)
 Settings.Sorry = State
 if Settings.Sorry then
