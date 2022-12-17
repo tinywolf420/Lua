@@ -1,6 +1,6 @@
 --[Working V.G-3 Hub]--
 local Config = {
-    WindowName = "☆-V.G Hub-☆ ☆-Adopt Me-☆-By DreamCraft-☆",
+    WindowName = "☆-V.G Hub Reimagined v.3-☆               ☆-Adopt Me-☆                ☆-Game By: DreamCraft-☆",
     Color = Color3.fromRGB(82, 9, 252),
     Keybind = Enum.KeyCode.RightControl
 }
